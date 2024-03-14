@@ -1,0 +1,25 @@
+.contentContainer {
+    grid-area: content;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr ;
+}
+.contentItem {
+    display: flex;
+    flex-direction:column;
+    margin: 30px;
+    color: white;
+    font-weight: bold;
+    text-align: center;
+    max-height: 300px;
+    max-width: 200px;
+    background-color: darkslateblue;
+    border-radius: 10px;
+    box-shadow:black 0 0 10px ;
+
+}
+.contentItem img {
+    width: 200px;
+    height: 200px;
+    border-radius: 10px;
+}
+

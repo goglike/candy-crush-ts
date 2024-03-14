@@ -1,0 +1,33 @@
+.container {
+    display: flex;
+    justify-content: end;
+
+}
+.userMenu {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    margin-top: 5px;
+    margin-right: 5px;
+    border-radius: 10px;
+    background-color: #ffffff;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border:1px solid #ffffff;
+    z-index: -1;
+}
+.btn {
+    border: solid transparent;
+    background-color: #ffffff;
+    color: darkslateblue;
+    padding-right: 70px;
+    padding-bottom: 2px;
+    padding-left: 5px;
+    font-size: 16px;
+    text-align: left;
+    border-top: 2px #ffffff;
+}
+.btn:hover {
+    opacity: 0.33;
+    transition: opacity 0.3s ease;
+}

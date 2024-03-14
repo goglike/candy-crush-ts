@@ -1,0 +1,67 @@
+.filterBar {
+    padding: 10px 10px 10px;
+    grid-area: filter;
+
+}
+.filtersWord {
+    font-size: 20px;
+    font-weight: bold;
+}
+.filterBar h1 {
+    font-size: 20px;
+    font-weight: lighter;
+    color: #bdb76b;
+    margin: 5px 0 5px;
+}
+.prise {
+    display: flex;
+    flex-direction: column;
+}
+
+.priseLabel input {
+    max-width: 100px;
+    border: solid transparent;
+    border-radius: 5px;
+    padding: 5px;
+    box-shadow: black 0 0 5px;
+    margin: 4px;
+}
+
+.brandLabel {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+}
+.brandLabelItem {
+    margin: 2px 0 2px;
+}
+.btnContainer {
+    display: flex;
+    gap: 1rem;
+}
+
+.mostPopular li{
+    margin: 5px 0 5px;
+    text-decoration: none;
+    cursor: pointer;
+    list-style-type: none;
+    font-weight: bold;
+}
+
+.searchBtn button{
+    border: solid transparent;
+    cursor: pointer;
+    padding: 5px 10px 5px 10px;
+    margin: 5px 0 5px;
+
+
+}
+.undoBtn button{
+    background-color: white;
+    border: solid transparent;
+    cursor: pointer;
+    padding: 5px 10px 5px 10px;
+    margin: 5px 0 5px;
+
+
+}

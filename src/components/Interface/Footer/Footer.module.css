@@ -1,0 +1,44 @@
+footer {
+    background-color: #303030;
+    margin-top: auto;
+}
+.container {
+    display: grid;
+    grid-template-columns: 2fr 1fr 1fr 1fr 1fr;
+    padding: 10px 0 10px 0;
+}
+.getAppContainer {
+    display: flex;
+    flex-direction: column;
+    padding-left: 10px;
+    justify-content: center;
+}
+.getAppContainer i {
+    color: white;
+    font-size: 20px;
+    padding-bottom: 10px;
+
+}
+.getAppContainer a {
+    padding-left: 10px;
+    font-size: 20px;
+}
+.linksContainer {
+    display: flex;
+    flex-direction: column;
+}
+.linksContainer #item{
+    text-decoration: none;
+    padding-bottom: 5px;
+    color: white;
+}
+.phoneContainer {
+    color: white;
+    text-align: center;
+}
+.socialContainer #item{
+    color: white;
+    font-size: 20px;
+    margin-right: 5px;
+
+}

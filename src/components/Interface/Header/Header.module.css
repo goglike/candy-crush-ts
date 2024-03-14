@@ -1,0 +1,64 @@
+header {
+    display: flex;
+    justify-content: center;
+    background: linear-gradient(to right, darkslateblue,plum)
+
+}
+header h1 {
+    color: white;
+    padding-top: 20px;
+}
+
+header img {
+    height: 50px;
+    width: 50px;
+    border-radius: 20px;
+    display: flex;
+    margin: 15px;
+}
+
+header nav {
+    max-width: 1200px;
+    margin: auto;
+    display: flex;
+    gap: 2rem;
+}
+
+header nav a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+header nav a:hover {
+    opacity: 0.33;
+    transition: opacity 0.3s ease;
+}
+
+.userInfo {
+    display: flex;
+    justify-content: center;
+    align-content: space-between;
+    gap: 1rem;
+    padding: 30px;
+    border: solid transparent;
+    background-color: transparent;
+    font-size: 16px;
+    cursor: pointer;
+    font-weight: bold;
+    border-radius: 0px;
+    box-shadow: none;
+}
+.userInfo:hover {
+    opacity: 0.33;
+    transition: opacity 0.5s ease;
+}
+
+.userName {
+    color: white;
+}
+
+.userBalance {
+    color: white;
+}
+
+

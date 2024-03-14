@@ -1,0 +1,79 @@
+.wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+}
+.container {
+    height: 700px;
+    width: 500px;
+    display: grid;
+    align-items: center;
+    background: linear-gradient(to right, darkslateblue, plum);
+    border-radius: 20px;
+    grid-template-rows: 1fr 9fr;
+    box-shadow: black 1px 2px 5px;
+}
+.container form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.header {
+    display: flex;
+    margin-right: auto;
+    margin-left: 10px;
+    justify-content: left;
+    gap: 1rem;
+}
+.header .logo {
+    max-width: 50px;
+    max-height: 50px;
+    border-radius: 20px;
+}
+.header h1 {
+    color: white;
+    margin-top: 5px;
+
+}
+
+.container form h1 {
+
+    color: white;
+    font-size: 50px;
+    margin-bottom:30px ;
+}
+.container form a {
+    color: white;
+    font-size: 18px;
+    line-height: 40px;
+}
+.container form #link:hover {
+    opacity: 0.6;
+    transition: opacity 0.3s ease;
+}
+.container form input {
+    padding: 5px 0 5px 0;
+    margin: 5px 0 5px 0;
+
+    min-width: 300px;
+    border: solid transparent;
+    border-radius: 5px;
+}
+.btnContainer {
+    display: flex;
+}
+.container form .btnContainer button {
+    max-width: 200px;
+    min-width: 100px;
+    padding: 5px 0 5px 0;
+    border: solid transparent;
+    border-radius: 5px;
+    box-shadow: black 1px 2px 3px;
+    cursor: pointer;
+    margin: 10px;
+}
+.container form button:hover {
+    opacity: 0.8;
+    transition: opacity 0.3s ease;
+}

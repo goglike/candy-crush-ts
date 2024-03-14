@@ -1,0 +1,29 @@
+.container {
+    min-height: 90vh;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    display: flex;
+    background: linear-gradient(to right, darkslateblue,plum);
+    color: white;
+    z-index: 1;
+}
+.container h1 {
+    font-size: 40px;
+}
+.btnContainer {
+    display: flex;
+    flex-direction: row;
+    gap: 2rem;
+}
+.btnContainer button {
+    border: solid transparent;
+    padding: 10px;
+    margin-top: 20px;
+
+}
+.btnContainer button:hover {
+    opacity: 0.83;
+    transition: opacity 0.2s ease;
+}
